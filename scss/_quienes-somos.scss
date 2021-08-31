@@ -1,0 +1,46 @@
+@import './scss/variables';
+
+/* PAG QUIENES SOMOS */
+
+
+main {
+    width: 1024px;
+    background-color: var(--mint-cream);
+    margin: 0 auto;
+    line-height: 3rem;
+}
+
+.quienes-somos-container {
+    padding: 2rem;
+    margin: 2em;
+    .quienes-somos-container__title {
+        font-family: monospace;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-bottom: 2rem;
+    }
+    .quienes-somos-container__subtitle {
+        font-family: monospace;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-bottom: 1rem;
+    }
+    .quienes-somos-container__text {
+        padding-bottom: 2rem;
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+}
+
+#carousel {
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        font-size: 12px;
+    }
+    main {
+        background-color: rgb(207, 211, 219);
+        font-size: smaller;
+    }
+}

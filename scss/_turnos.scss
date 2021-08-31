@@ -1,0 +1,33 @@
+
+/* PAG TURNOS */
+
+#turnos-container {
+    .turnos-container__titulo--uppercase {
+        font-family: monospace;
+        padding-bottom: 2rem;
+        line-height: 3rem;
+        padding: 2rem;
+        margin: 2rem;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .turnos-container__text {
+        padding-bottom: 2rem;
+        line-height: 3rem;
+        padding: 2rem;
+        margin: 2rem;
+        font-family: 'Laila', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    ul li {
+        padding-bottom: 2rem;
+        line-height: 1.5rem;
+        padding: 2rem;
+        margin: 2rem;
+        font-family: 'Laila', sans-serif;
+        font-size: 1.5rem;
+        color: rgb(28, 80, 56);
+    }
+}

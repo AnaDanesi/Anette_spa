@@ -1,0 +1,38 @@
+/* HEADER */
+
+header {
+    height: 20vh;
+    background-color:white;
+    align-items: center;
+
+    #logo  {
+        width: 60%;
+       padding: 2rem;
+    }
+
+    nav {
+        width: 60%;
+    }
+    .nav {
+        font-size: 1.1rem;
+        justify-content: space-evenly;
+        gap: 2rem;
+        li {
+            a {
+                padding:1rem 1.5rem;
+                font-family: 'Laila', sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+
+        li:hover {
+            a {
+                background-color: rgb(241, 231, 187);
+                color: gray;
+                padding: 20px;
+            }
+        }
+    }
+
+    

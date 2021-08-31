@@ -1,0 +1,20 @@
+/* VARIABLES */
+
+:root {
+    --davys-grey: #595758ff;
+    --light-gray: #d6d2d2ff;
+    --pale-purple-pantone: #ffe4f3ff;
+    --mint-cream: #f1fffaff;
+    --middle-grey: #8a817cff;
+    --champagne-pink: #e8d1c5ff;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}

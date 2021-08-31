@@ -1,0 +1,305 @@
+/* GLOBALES */
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+/* ESTILOS COMUNES */
+p {
+  color: #837f7f; }
+
+h3 {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #435843; }
+
+h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #5c5a47; }
+
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: gray; }
+
+a {
+  color: var(--middle-grey); }
+
+/* VARIABLES */
+:root {
+  --davys-grey: #595758ff;
+  --light-gray: #d6d2d2ff;
+  --pale-purple-pantone: #ffe4f3ff;
+  --mint-cream: #f1fffaff;
+  --middle-grey: #8a817cff;
+  --champagne-pink: #e8d1c5ff; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column; }
+
+/* NORMALIZADOR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* HEADER */
+header {
+  height: 20vh;
+  background-color: white;
+  align-items: center; }
+  header #logo {
+    width: 60%;
+    padding: 2rem; }
+  header nav {
+    width: 60%; }
+  header .nav {
+    font-size: 1.1rem;
+    justify-content: space-evenly;
+    gap: 2rem; }
+    header .nav li a {
+      padding: 1rem 1.5rem;
+      font-family: 'Laila', sans-serif;
+      font-weight: bold; }
+  header li:hover a {
+    background-color: #f1e7bb;
+    color: gray;
+    padding: 20px; }
+
+/* INDEX MAIN */
+.main-index {
+  width: 1024px;
+  background-color: var(--mint-cream);
+  margin: 0 auto; }
+
+.banner {
+  padding-top: 20px;
+  height: 400px;
+  background-image: url(../imagenes/piedras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .banner .banner__heading {
+    text-align: center;
+    color: var(--davys-grey);
+    font-size: 42px;
+    font-weight: bold;
+    padding-top: 10%;
+    font-size: 32px;
+    font-family: 'Homemade Apple', cursive; }
+
+.banner h2:hover {
+  transition: 5s;
+  font-size: 3rem; }
+
+img {
+  width: 100%;
+  margin: 0px; }
+
+.index-grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 2fr 2fr;
+  align-items: center; }
+  .index-grid-container .index-grid-container__img1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2; }
+  .index-grid-container .index-grid-container__img2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; }
+  .index-grid-container .index-grid-container__aside {
+    grid-column: 2 / 5;
+    grid-row: 1 / 3;
+    margin: 10% auto;
+    margin-left: 10%;
+    align-content: center;
+    margin-right: 10%;
+    font-size: 2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 3.5em;
+    text-align: center;
+    align-items: center; }
+
+/* VARIABLES */
+:root {
+  --davys-grey: #595758ff;
+  --light-gray: #d6d2d2ff;
+  --pale-purple-pantone: #ffe4f3ff;
+  --mint-cream: #f1fffaff;
+  --middle-grey: #8a817cff;
+  --champagne-pink: #e8d1c5ff; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column; }
+
+/* PAG QUIENES SOMOS */
+main {
+  width: 1024px;
+  background-color: var(--mint-cream);
+  margin: 0 auto;
+  line-height: 3rem; }
+
+.quienes-somos-container {
+  padding: 2rem;
+  margin: 2em; }
+  .quienes-somos-container .quienes-somos-container__title {
+    font-family: monospace;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-bottom: 2rem; }
+  .quienes-somos-container .quienes-somos-container__subtitle {
+    font-family: monospace;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-bottom: 1rem; }
+  .quienes-somos-container .quienes-somos-container__text {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    padding: 3rem; }
+
+#carousel {
+  width: 50%;
+  margin: auto; }
+
+@media only screen and (max-width: 768px) {
+  nav ul li {
+    font-size: 12px; }
+  main {
+    background-color: #cfd3db;
+    font-size: smaller; } }
+
+/* PAG SERVICIOS */
+#servicios {
+  background-color: var(--mint-cream); }
+  #servicios h1 {
+    font-family: monospace;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2rem; }
+  #servicios h2 {
+    font-family: monospace;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+    font-family: 'Laila', sans-serif; }
+  #servicios h3 {
+    line-height: 3rem; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 2fr 2fr 2fr;
+  gap: 20px;
+  justify-content: center; }
+  .grid-container div {
+    background-color: linen;
+    border: 1px dotted #647e5c;
+    font-size: 18px;
+    padding: 2em;
+    font-family: 'Alegreya Sans', sans-serif; }
+    .grid-container div ul li {
+      list-style-type: none; }
+
+#masajes {
+  grid-column: 1/3; }
+
+#tratamientosFaciales {
+  grid-column: 2/4; }
+
+#tratamientosCorporales {
+  grid-column: 1/3; }
+
+/* TAREA SASS - FOR */
+div ul li:nth-child(1) {
+  color: navy; }
+
+div ul li:nth-child(2) {
+  color: navy; }
+
+div ul li:nth-child(3) {
+  color: navy; }
+
+/* PAG TURNOS */
+#turnos-container .turnos-container__titulo--uppercase {
+  font-family: monospace;
+  padding-bottom: 2rem;
+  line-height: 3rem;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase; }
+
+#turnos-container .turnos-container__text {
+  padding-bottom: 2rem;
+  line-height: 3rem;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: 'Laila', sans-serif;
+  font-size: 1.5rem; }
+
+#turnos-container ul li {
+  padding-bottom: 2rem;
+  line-height: 1.5rem;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: 'Laila', sans-serif;
+  font-size: 1.5rem;
+  color: #1c5038; }
+
+/* PAG CONTACTO */
+form {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+  padding-left: 30%;
+  line-height: 1.5rem; }
+
+input {
+  display: block;
+  background-color: #e4e4e4;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 1px;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  align-items: center;
+  margin: 2rem;
+  line-height: 1.5rem;
+  width: 47%; }
+
+#contacto h1 {
+  font-family: monospace;
+  padding-bottom: 2rem;
+  line-height: 3rem;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2rem; }
+
+/* FOOTER */
+footer {
+  height: 20vh;
+  background-image: linear-gradient(to right, #bbe9b9, #c2c2bd);
+  align-items: center;
+  font-size: 1.1rem;
+  font-family: 'Laila', sans-serif;
+  margin: 1mm; }
+  footer nav {
+    width: 100%;
+    height: 60%;
+    padding: 1.5rem; }
+
+footer .flex-row {
+  justify-content: space-evenly; }
+
+footer .flex-col {
+  text-align: center; }
