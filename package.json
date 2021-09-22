@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaDanesi/Idea_Danesi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnaDanesi/Idea_Danesi/issues"
+  },
+  "homepage": "https://github.com/AnaDanesi/Idea_Danesi#readme",
   "description": ""
 }
