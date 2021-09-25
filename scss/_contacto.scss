@@ -7,13 +7,18 @@
     background-color: var(--mint-cream);
     margin: 0 auto;
     line-height: 3.5rem;
-}
+ }
 
-form {
-    padding-left: 30%;
+.formulario {
+    display: flex;
     font-family:  'Josefin Sans', sans-serif;
-    margin: 0 auto; 
     line-height: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
 
 input {
@@ -28,7 +33,7 @@ input {
     align-items: center;
     margin: 2rem;
     line-height: 1.5rem;
-    width: 47%;
+    text-align: center;
 }
 
 
@@ -60,6 +65,6 @@ input {
         align-items: center;
         margin: 1rem;
         line-height: 1rem;
-        width: 60%;
+        width: 70%;
     }
 }    

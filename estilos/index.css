@@ -88,7 +88,7 @@ header {
   header {
     margin: 0 auto;
     height: 100%;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -101,9 +101,9 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 1em; }
+      padding: 0.5em; }
       header .nav li a {
-        padding: 2rem;
+        padding: 1.5rem;
         font-family: 'Arima Madurai', cursive; }
       header .nav li:hover a {
         background-color: #bcc1c7;
@@ -211,12 +211,12 @@ header {
   padding: 2em;
   justify-content: center;
   align-items: center;
-  font-family: 'Josefin Sans', sans-serif; }
+  font-family: 'Arima Madurai', cursive; }
   .grid-container div {
     padding: 1.5em; }
     .grid-container div ul li {
       list-style-type: none;
-      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Arima Madurai', cursive;
       font-size: 20px; }
 
 #masajes {
@@ -244,7 +244,7 @@ header {
     padding: 0.5em;
     justify-content: center;
     align-items: center;
-    font-family: 'Josefin Sans', sans-serif; }
+    font-family: 'Arima Madurai', cursive; }
     .grid-container h2 {
       font-size: 20px; }
     .grid-container h3 {
@@ -253,7 +253,7 @@ header {
       padding: 0.5em; }
       .grid-container div ul li {
         list-style-type: none;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Arima Madurai', cursive;
         text-align: center;
         font-size: 18px; }
   #imagen1 {
@@ -331,11 +331,16 @@ header {
   margin: 0 auto;
   line-height: 3.5rem; }
 
-form {
-  padding-left: 30%;
+.formulario {
+  display: flex;
   font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5rem;
+  max-width: 600px;
   margin: 0 auto;
-  line-height: 1.5rem; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 input {
   display: block;
@@ -349,7 +354,7 @@ input {
   align-items: center;
   margin: 2rem;
   line-height: 1.5rem;
-  width: 47%; }
+  text-align: center; }
 
 @media screen and (max-width: 737px) {
   #contacto {
@@ -375,7 +380,7 @@ input {
     align-items: center;
     margin: 1rem;
     line-height: 1rem;
-    width: 60%; } }
+    width: 70%; } }
 
 .error404 {
   display: flex;
